@@ -15,7 +15,7 @@ body{
 
 /*NavBar style start*/
 nav{
-	width: 80%;
+	width: 75%;
 	height: 8em;
 	background: #eee;
 	margin: auto;
@@ -62,7 +62,7 @@ nav .container .navbar ul li a:hover{
 
 /*Home style start*/
 #Home{
-	width: 80%;
+	width: 75%;
 	height: 90vh;
 	background: #eee;
 	margin: auto;
@@ -146,7 +146,7 @@ nav .container .navbar ul li a:hover{
 /*Services style start*/
 
 #Services{
-	width: 80%;
+	width: 75%;
 	height: 90vh;
 	background: #eee;
 	margin: auto;
@@ -206,7 +206,7 @@ nav .container .navbar ul li a:hover{
 
 /*Footer style start*/
 footer{
-	width: 80%;
+	width: 75%;
 	height: 100%;
 	background: #eee;
 	margin: auto;	
