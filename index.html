@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Site</title>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+	<!-- Nav bar -->
+	<nav>
+		<div class="container">
+			<div class="text">
+				<span>MyLogo</span>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li>
+						<a href="#Home">Home</a>
+						<a href="#Services">Services</a>
+						<a href="#About me">About me</a>
+						<a href="#Contact Us">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Home -->
+	<section id="Home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="home-img" style="text-align: center;">
+						<img src="MyImg.png" alt="Mohamed Abdiaziz">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="home-text fz-2 mt-4">
+						<h1 class="text-light">Hello I'm Mohamed Abdiaziz</h1>						
+						<p class="d-inline">Web Developer</p>
+						<p class="d-inline">Designer</p>
+						<p class="d-inline">UI Designer</p>
+						<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div style="margin-top: 1.3rem;">
+							<a href="#portfolio" id="btnir">Read More...</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- about -->
+	<section id="Services">
+		<div class="container">
+			<div class="section-title">
+	        	<h2>Services</h2>
+	        	<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+	        	Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+	        </div>
+	        <div class="row">
+
+	        </div>
+		</div>
+	</section>
+
+
+
+	<!-- footer -->
+	<footer>
+		<div class="container"> 
+			<p style="text-align: center;">&copy copyright 2023 - <a href="">Mohamed Abdiaziz</a></p>
+		</div>		
+	</footer>
+
+
+
+	<script type="text/javascript">
+		var nav = document.querySelector('nav');
+
+		window.addEventListener('scroll', function() {
+			if (window.pageYOffset > 100) {
+				nav.classList.add('shadow' , 'fixed-top');
+			}
+			else{
+				nav.classList.remove('shadow' , 'fixed-top');
+			}
+		})
+	</script>
+
+</body>
+</html>
